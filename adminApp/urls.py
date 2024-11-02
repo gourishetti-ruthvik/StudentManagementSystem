@@ -30,5 +30,5 @@ urlpatterns = [
     path('upload_file/', views.upload_file, name='upload_file'),
     path('submit_feedback', views.feedback_form, name='submit_feedback'),
     path('add_contact/', views.add_contact, name='add_contact'),
-    path('<int:pk>/delete/', views.delete_contact, name='delete_contact'),
+    path('<int:pk>/delete_contact/', views.delete_contact, name='delete_contact'),
 ]
